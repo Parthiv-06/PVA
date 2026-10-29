@@ -1,0 +1,8 @@
+[project]
+name = "pva"
+version = "0.1.0"
+dependencies = [
+    "livekit-agents[silero,turn-detector]",
+    "livekit-plugins-noise-cancellation",
+    "python-dotenv",
+]
